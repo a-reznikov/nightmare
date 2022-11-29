@@ -1,0 +1,133 @@
+ssh-keygen -t rsa -C "+++++@gmail.com"
+cd /c/Users/Aleksandr/.ssh/
+notepad id_rsa.pub
+git config user.name (git config --global user.name)
+git config user.email (git config --global user.email)
+cd /c/data/temp
+git clone git@github.com:a-reznikov/nightmare.git
+$ ls
+git-demo/  git-demo-song/  nightmare/
+$ cd nightmare/
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ ls
+README.md
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ touch song.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ ls
+README.md  song.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ echo 'sword and spear' >> song.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ cat song.txt
+sword and spear
+
+$ echo 'wall of shields' >> song.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ cat song.txt
+sword and spear
+wall of shields
+
+$ git status
+$ git add song.txt
+$ git commit -m "add first two lines in the song"
+$ git push
+  add changes in web intarface
+$ git pull
+$ touch .gitignore
+$ notepad .gitignore
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ git branch feature
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (feature)
+
+$ touch file.log
+$ mkdir binbin
+$ touch file.txt
+$ notepad file.txt
+$ git add file.txt
+$ git commit -m "add one file.txt and folder binbin"
+
+$ mkdir bin
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (feature)
+$ ls
+README.md  bin/  binbin/  file.log  file.txt  song.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (feature)
+$ cd bin/
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare/bin (feature)
+$ ls
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare/bin (feature)
+$ touch bf.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare/bin (feature)
+$ notepad bf.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare/bin (feature)
+$ ls
+bf.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare/bin (feature)
+$ cd -
+/c/data/temp/nightmare
+$ git add file.txt
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (feature)
+$ git commit -m "add bin directory and file bf.txt"
+$ git checkout main
+$ git merge feature
+$ git checkout feature
+$ notepad arrows.txt
+$ git add arrows.txt
+$ git commit -m "arrows in feature"
+$ git checkout main
+$ notepad arrows.txt
+$ git add arrows.txt
+$ git commit -m "arrows in main"
+$ git merge feature
+git commit -m "merge"
+
+$ git checkout storm
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (storm)
+$ notepad storm.txt
+$ git add storm.txt
+$ git commit -m "add two lines in storm"
+$ notepad storm.txt
+$ git add storm.txt
+$ git commit -m "add 3 and 4 lines in storm"
+$ git checkout main
+$ notepad pursuit.txt
+$ git add pursuit.txt
+$ git commit -m "add pursuit.txt in main"
+$ git tag session1
+$ git checkout storm
+$ git rebase main
+
+4
+$ git push
+$ git remote remove origin
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ git remote add origin git@github.com:a-reznikov/nightmare-clone.git
+
+Aleksandr@Home-PC MINGW64 /c/data/temp/nightmare (main)
+$ git push
+$ git push --set-upstream origin main -f
+
+
+
+
+
+
