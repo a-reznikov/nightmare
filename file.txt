@@ -1,1 +1,2 @@
 add one file.txt and folder binbin
+add not visible directory and file bf.txt
